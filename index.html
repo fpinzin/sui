@@ -83,11 +83,11 @@
                 {{#apps}}
                     <div class="apps_item">
                         <div class="apps_icon">
-                            <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
+                            <a href="{{url}}" target="_blank"><span class="iconify icon" data-icon="mdi-{{icon}}"></span></a>
                         </div>
                         <div class="apps_text">
                             <a href="{{url}}" target="_blank">{{name}}</a>
-                            <span>{{url}}</span>
+                            <!-- span>{{url}}</span -->
                         </div>
                     </div>
                 {{/apps}}                         
